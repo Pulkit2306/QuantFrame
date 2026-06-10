@@ -1,0 +1,9 @@
+# Normalize line endings for cross-platform consistency
+* text=auto
+
+# Force LF for shell scripts and Makefiles (must be LF on Linux)
+*.sh text eol=lf
+Makefile text eol=lf
+Dockerfile text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf

@@ -1,0 +1,27 @@
+alpaca:
+  base_url: "https://data.alpaca.markets/v2"
+  # Set via environment variables: ALPACA_API_KEY, ALPACA_SECRET_KEY
+  # Free tier works — no trading account needed
+
+database:
+  host: "localhost"
+  port: 5432
+  name: "quantframe"
+  user: "quantframe"
+  password: "quantframe"
+  # Override via DATABASE_URL env var
+
+pipeline:
+  max_concurrent_requests: 5
+  bars_timeframe: "1Day"
+  default_lookback_days: 730   # 2 years
+
+watchlist:
+  - AAPL
+  - MSFT
+  - GOOGL
+  - AMZN
+  - NVDA
+  - SPY
+  - QQQ
+  - TSLA
