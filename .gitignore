@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# C++
+layer2_engine/build/
+*.o
+*.a
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
