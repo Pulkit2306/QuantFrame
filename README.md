@@ -279,3 +279,9 @@ pipeline:
 **Pluggable strategies** — The C++ `Strategy` base class uses the Template Method pattern. Swapping SMA crossover for mean reversion requires zero engine changes.
 
 **LLM prompt caching** — The Anthropic system prompt uses `cache_control: ephemeral`. Repeated analysis calls across many symbols hit the cache instead of re-tokenizing the full context.
+
+
+
+
+## DEMO
+Here is a demo of the frontend of my project: https://pulkit2306.github.io/QuantFrame/
